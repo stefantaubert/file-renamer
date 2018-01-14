@@ -74,10 +74,9 @@ Partial Class Form1
         '
         Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button1.ForeColor = System.Drawing.Color.ForestGreen
-        Me.Button1.Location = New System.Drawing.Point(473, 11)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button1.Location = New System.Drawing.Point(355, 9)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(203, 28)
+        Me.Button1.Size = New System.Drawing.Size(152, 23)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "&Umbenennen!"
         Me.ToolTip1.SetToolTip(Me.Button1, "Umbenennen starten!")
@@ -86,21 +85,19 @@ Partial Class Form1
         'TextBox1
         '
         Me.TextBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox1.Location = New System.Drawing.Point(133, 7)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox1.Location = New System.Drawing.Point(100, 6)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(420, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(316, 20)
         Me.TextBox1.TabIndex = 0
         Me.ToolTip1.SetToolTip(Me.TextBox1, "Stammverzeichnis")
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(16, 11)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(12, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(41, 17)
+        Me.Label1.Size = New System.Drawing.Size(32, 13)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Pfad:"
         Me.Label1.UseMnemonic = False
@@ -109,24 +106,22 @@ Partial Class Form1
         '
         Me.Label2.AutoSize = True
         Me.Label2.ForeColor = System.Drawing.Color.DarkOrchid
-        Me.Label2.Location = New System.Drawing.Point(16, 75)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(12, 61)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(63, 17)
+        Me.Label2.Size = New System.Drawing.Size(49, 13)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Schema:"
-        Me.ToolTip1.SetToolTip(Me.Label2, "Das Schema wird in Großbuchstaben angegeben: Z = Zahl, B = Text, [Leer] steht für" & _
-                " "" "", M = Monat, D = Datum")
+        Me.ToolTip1.SetToolTip(Me.Label2, "Das Schema wird in Großbuchstaben angegeben: Z = Zahl, B = Text, [Leer] steht für" &
+        " "" "", M = Monat, D = Datum")
         Me.Label2.UseMnemonic = False
         '
         'TextBox2
         '
         Me.TextBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox2.Location = New System.Drawing.Point(133, 71)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox2.Location = New System.Drawing.Point(100, 58)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(449, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(338, 20)
         Me.TextBox2.TabIndex = 2
         Me.TextBox2.Text = "Z TE"
         Me.ToolTip1.SetToolTip(Me.TextBox2, "Nach diesem Schema wird umbenannt")
@@ -134,21 +129,19 @@ Partial Class Form1
         'TextBox3
         '
         Me.TextBox3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox3.Location = New System.Drawing.Point(133, 39)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox3.Location = New System.Drawing.Point(100, 32)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(420, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(316, 20)
         Me.TextBox3.TabIndex = 1
         Me.ToolTip1.SetToolTip(Me.TextBox3, "Pfad in den die Datein umbenannt werden sollen.")
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(16, 43)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Location = New System.Drawing.Point(12, 35)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(84, 17)
+        Me.Label3.Size = New System.Drawing.Size(64, 13)
         Me.Label3.TabIndex = 3
         Me.Label3.Text = "Neuer Pfad:"
         Me.ToolTip1.SetToolTip(Me.Label3, "Der neue Pfad gibt an wo die Umbenannten Datein gespeichert werden sollen.")
@@ -158,10 +151,9 @@ Partial Class Form1
         '
         Me.Label4.AutoSize = True
         Me.Label4.ForeColor = System.Drawing.Color.Black
-        Me.Label4.Location = New System.Drawing.Point(16, 111)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Location = New System.Drawing.Point(12, 90)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(39, 17)
+        Me.Label4.Size = New System.Drawing.Size(31, 13)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Text:"
         Me.ToolTip1.SetToolTip(Me.Label4, "Text:")
@@ -171,10 +163,9 @@ Partial Class Form1
         '
         Me.Button7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button7.ForeColor = System.Drawing.Color.Red
-        Me.Button7.Location = New System.Drawing.Point(592, 69)
-        Me.Button7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button7.Location = New System.Drawing.Point(444, 56)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(103, 28)
+        Me.Button7.Size = New System.Drawing.Size(77, 23)
         Me.Button7.TabIndex = 5
         Me.Button7.Text = "&Rückgängig"
         Me.ToolTip1.SetToolTip(Me.Button7, "Löscht die letzte Eingabe.")
@@ -185,10 +176,9 @@ Partial Class Form1
         Me.Button11.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button11.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.Button11.ForeColor = System.Drawing.Color.DarkRed
-        Me.Button11.Location = New System.Drawing.Point(592, 5)
-        Me.Button11.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button11.Location = New System.Drawing.Point(444, 4)
         Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(103, 28)
+        Me.Button11.Size = New System.Drawing.Size(77, 23)
         Me.Button11.TabIndex = 5
         Me.Button11.Text = "&Beenden"
         Me.ToolTip1.SetToolTip(Me.Button11, "Beendet den Renamer.")
@@ -200,10 +190,9 @@ Partial Class Form1
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.Checked = True
         Me.CheckBox1.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.CheckBox1.Location = New System.Drawing.Point(4, 16)
-        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox1.Location = New System.Drawing.Point(3, 13)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(266, 21)
+        Me.CheckBox1.Size = New System.Drawing.Size(201, 17)
         Me.CheckBox1.TabIndex = 6
         Me.CheckBox1.Text = "&Auch einen Unterordner einschließen"
         Me.ToolTip1.SetToolTip(Me.CheckBox1, "Benennt auch die Datein in einem Unterordner.")
@@ -213,10 +202,9 @@ Partial Class Form1
         '
         Me.Button10.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button10.ForeColor = System.Drawing.SystemColors.Info
-        Me.Button10.Location = New System.Drawing.Point(592, 37)
-        Me.Button10.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button10.Location = New System.Drawing.Point(444, 30)
         Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(103, 28)
+        Me.Button10.Size = New System.Drawing.Size(77, 23)
         Me.Button10.TabIndex = 5
         Me.Button10.Text = "&INFO"
         Me.ToolTip1.SetToolTip(Me.Button10, "Gibt die wesentlichen Informationen zu diesem Program.")
@@ -233,11 +221,9 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.Button5)
         Me.GroupBox1.Controls.Add(Me.Button6)
         Me.GroupBox1.ForeColor = System.Drawing.Color.DarkOrchid
-        Me.GroupBox1.Location = New System.Drawing.Point(20, 171)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Location = New System.Drawing.Point(15, 139)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.GroupBox1.Size = New System.Drawing.Size(448, 96)
+        Me.GroupBox1.Size = New System.Drawing.Size(336, 78)
         Me.GroupBox1.TabIndex = 9
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Schema bearbeiten:"
@@ -247,10 +233,9 @@ Partial Class Form1
         '
         Me.Button3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button3.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.Button3.Location = New System.Drawing.Point(8, 23)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button3.Location = New System.Drawing.Point(6, 19)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(103, 28)
+        Me.Button3.Size = New System.Drawing.Size(77, 23)
         Me.Button3.TabIndex = 5
         Me.Button3.Text = "L&eerzeichen"
         Me.Button3.UseVisualStyleBackColor = True
@@ -259,10 +244,9 @@ Partial Class Form1
         '
         Me.Button2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button2.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.Button2.Location = New System.Drawing.Point(119, 23)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button2.Location = New System.Drawing.Point(89, 19)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(103, 28)
+        Me.Button2.Size = New System.Drawing.Size(77, 23)
         Me.Button2.TabIndex = 5
         Me.Button2.Text = "&Zahl"
         Me.Button2.UseVisualStyleBackColor = True
@@ -271,10 +255,9 @@ Partial Class Form1
         '
         Me.Button8.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button8.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.Button8.Location = New System.Drawing.Point(119, 59)
-        Me.Button8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button8.Location = New System.Drawing.Point(89, 48)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(103, 28)
+        Me.Button8.Size = New System.Drawing.Size(77, 23)
         Me.Button8.TabIndex = 5
         Me.Button8.Text = "&Uhrzeit"
         Me.Button8.UseVisualStyleBackColor = True
@@ -283,10 +266,9 @@ Partial Class Form1
         '
         Me.Button4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button4.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.Button4.Location = New System.Drawing.Point(229, 23)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button4.Location = New System.Drawing.Point(172, 19)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(103, 28)
+        Me.Button4.Size = New System.Drawing.Size(77, 23)
         Me.Button4.TabIndex = 5
         Me.Button4.Text = "&Text"
         Me.Button4.UseVisualStyleBackColor = True
@@ -295,10 +277,9 @@ Partial Class Form1
         '
         Me.Button9.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button9.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.Button9.Location = New System.Drawing.Point(229, 59)
-        Me.Button9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button9.Location = New System.Drawing.Point(172, 48)
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(103, 28)
+        Me.Button9.Size = New System.Drawing.Size(77, 23)
         Me.Button9.TabIndex = 5
         Me.Button9.Text = "&Jahr"
         Me.Button9.UseVisualStyleBackColor = True
@@ -307,10 +288,9 @@ Partial Class Form1
         '
         Me.Button12.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button12.ForeColor = System.Drawing.SystemColors.MenuHighlight
-        Me.Button12.Location = New System.Drawing.Point(8, 59)
-        Me.Button12.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button12.Location = New System.Drawing.Point(6, 48)
         Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(103, 28)
+        Me.Button12.Size = New System.Drawing.Size(77, 23)
         Me.Button12.TabIndex = 5
         Me.Button12.Text = "&Endung"
         Me.Button12.UseVisualStyleBackColor = True
@@ -319,10 +299,9 @@ Partial Class Form1
         '
         Me.Button5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button5.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.Button5.Location = New System.Drawing.Point(337, 59)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button5.Location = New System.Drawing.Point(253, 48)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(103, 28)
+        Me.Button5.Size = New System.Drawing.Size(77, 23)
         Me.Button5.TabIndex = 5
         Me.Button5.Text = "&Datum"
         Me.Button5.UseVisualStyleBackColor = True
@@ -331,10 +310,9 @@ Partial Class Form1
         '
         Me.Button6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button6.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.Button6.Location = New System.Drawing.Point(337, 23)
-        Me.Button6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button6.Location = New System.Drawing.Point(253, 19)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(103, 28)
+        Me.Button6.Size = New System.Drawing.Size(77, 23)
         Me.Button6.TabIndex = 5
         Me.Button6.Text = "&Originalname"
         Me.Button6.UseVisualStyleBackColor = True
@@ -342,11 +320,10 @@ Partial Class Form1
         'TextBox4
         '
         Me.TextBox4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox4.Location = New System.Drawing.Point(133, 107)
-        Me.TextBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox4.Location = New System.Drawing.Point(100, 87)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(449, 22)
+        Me.TextBox4.Size = New System.Drawing.Size(338, 20)
         Me.TextBox4.TabIndex = 3
         Me.TextBox4.Text = "Bezeichnung"
         Me.ToolTip1.SetToolTip(Me.TextBox4, "In diesem Textfeld wird der Text eigegeben der dann in demmNamen vorkommen soll.")
@@ -355,8 +332,7 @@ Partial Class Form1
         '
         Me.PictureBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(563, 11)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox2.Location = New System.Drawing.Point(422, 9)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(16, 15)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -368,8 +344,7 @@ Partial Class Form1
         '
         Me.PictureBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(563, 42)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox1.Location = New System.Drawing.Point(422, 34)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(16, 15)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -380,10 +355,9 @@ Partial Class Form1
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(16, 143)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label5.Location = New System.Drawing.Point(12, 116)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(80, 17)
+        Me.Label5.Size = New System.Drawing.Size(61, 13)
         Me.Label5.TabIndex = 3
         Me.Label5.Text = "Dateiname:"
         Me.Label5.UseMnemonic = False
@@ -392,35 +366,31 @@ Partial Class Form1
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(129, 143)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label6.Location = New System.Drawing.Point(97, 116)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(0, 17)
+        Me.Label6.Size = New System.Drawing.Size(0, 13)
         Me.Label6.TabIndex = 3
         '
         'TextBox5
         '
         Me.TextBox5.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox5.Location = New System.Drawing.Point(8, 62)
-        Me.TextBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox5.Location = New System.Drawing.Point(6, 50)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(149, 22)
+        Me.TextBox5.Size = New System.Drawing.Size(113, 20)
         Me.TextBox5.TabIndex = 11
         '
         'GroupBox2
         '
         Me.GroupBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GroupBox2.Controls.Add(Me.Label9)
         Me.GroupBox2.Controls.Add(Me.Label7)
         Me.GroupBox2.Controls.Add(Me.TextBox5)
         Me.GroupBox2.ForeColor = System.Drawing.SystemColors.MenuHighlight
-        Me.GroupBox2.Location = New System.Drawing.Point(489, 171)
-        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox2.Location = New System.Drawing.Point(367, 139)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.GroupBox2.Size = New System.Drawing.Size(205, 96)
+        Me.GroupBox2.Size = New System.Drawing.Size(154, 78)
         Me.GroupBox2.TabIndex = 14
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Endung"
@@ -429,10 +399,9 @@ Partial Class Form1
         '
         Me.Label9.AutoSize = True
         Me.Label9.ForeColor = System.Drawing.Color.Black
-        Me.Label9.Location = New System.Drawing.Point(8, 21)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label9.Location = New System.Drawing.Point(6, 17)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(172, 34)
+        Me.Label9.Size = New System.Drawing.Size(130, 26)
         Me.Label9.TabIndex = 13
         Me.Label9.Text = "Die Endung wird bei allen " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Datein hinzugefügt."
         '
@@ -441,10 +410,9 @@ Partial Class Form1
         Me.Label7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label7.AutoSize = True
         Me.Label7.ForeColor = System.Drawing.Color.DeepPink
-        Me.Label7.Location = New System.Drawing.Point(167, 65)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label7.Location = New System.Drawing.Point(125, 53)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(28, 17)
+        Me.Label7.Size = New System.Drawing.Size(22, 13)
         Me.Label7.TabIndex = 12
         Me.Label7.Text = "OK"
         '
@@ -457,64 +425,59 @@ Partial Class Form1
         'ProgressBar1
         '
         Me.ProgressBar1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ProgressBar1.Location = New System.Drawing.Point(20, 290)
-        Me.ProgressBar1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ProgressBar1.Location = New System.Drawing.Point(15, 236)
         Me.ProgressBar1.Name = "ProgressBar1"
-        Me.ProgressBar1.Size = New System.Drawing.Size(635, 28)
+        Me.ProgressBar1.Size = New System.Drawing.Size(476, 23)
         Me.ProgressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous
         Me.ProgressBar1.TabIndex = 15
         '
         'ProgressBar2
         '
         Me.ProgressBar2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ProgressBar2.Location = New System.Drawing.Point(20, 345)
-        Me.ProgressBar2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ProgressBar2.Location = New System.Drawing.Point(15, 280)
         Me.ProgressBar2.Name = "ProgressBar2"
-        Me.ProgressBar2.Size = New System.Drawing.Size(635, 28)
+        Me.ProgressBar2.Size = New System.Drawing.Size(476, 23)
         Me.ProgressBar2.Style = System.Windows.Forms.ProgressBarStyle.Continuous
         Me.ProgressBar2.TabIndex = 15
         '
         'Panel1
         '
         Me.Panel1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Controls.Add(Me.CheckBox1)
-        Me.Panel1.Location = New System.Drawing.Point(16, 377)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel1.Location = New System.Drawing.Point(12, 306)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(680, 54)
+        Me.Panel1.Size = New System.Drawing.Size(510, 44)
         Me.Panel1.TabIndex = 16
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(16, 271)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label8.Location = New System.Drawing.Point(12, 220)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(212, 17)
+        Me.Label8.Size = New System.Drawing.Size(159, 13)
         Me.Label8.TabIndex = 17
         Me.Label8.Text = "Umbennenungsfortschritt Datein"
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(12, 325)
-        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label10.Location = New System.Drawing.Point(9, 264)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(239, 17)
+        Me.Label10.Size = New System.Drawing.Size(177, 13)
         Me.Label10.TabIndex = 17
         Me.Label10.Text = "Umbennenungsfortschritt in Ordnern"
         '
         'Form1
         '
         Me.AcceptButton = Me.Button1
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.CancelButton = Me.Button11
-        Me.ClientSize = New System.Drawing.Size(712, 428)
+        Me.ClientSize = New System.Drawing.Size(534, 348)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label8)
@@ -540,10 +503,9 @@ Partial Class Form1
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
-        Me.MinimumSize = New System.Drawing.Size(717, 339)
+        Me.MinimumSize = New System.Drawing.Size(542, 283)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Renamer"

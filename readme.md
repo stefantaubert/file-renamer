@@ -18,3 +18,6 @@ Language code & gui: German
 <p align="center">
   <img src="/screenshots/main.png">
 </p>
+
+# Acknoledgements
+Icon: https://www.iconfinder.com/icons/49255/rename_icon

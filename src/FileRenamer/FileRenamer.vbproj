@@ -18,7 +18,7 @@
     <OptionStrict>Off</OptionStrict>
     <OptionInfer>On</OptionInfer>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <ApplicationIcon>Renamer.ico</ApplicationIcon>
+    <ApplicationIcon>main.ico</ApplicationIcon>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -169,7 +169,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Renamer.ico" />
+    <Content Include="main.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

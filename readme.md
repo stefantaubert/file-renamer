@@ -1,9 +1,9 @@
 # File Renamer
 Tool for renaming multiple files at same time.
 
-This tool was created in 2010 with BASIC.
+This tool was created in 2010 with Visual Basic.
 
-Language Code & Gui: German
+Language code & gui: German
 
 ## Getting Started
 
@@ -16,5 +16,5 @@ Language Code & Gui: German
 ## Screenshot
 
 <p align="center">
-  <img src="/screenshots/leveldesigner.png">
+  <img src="/screenshots/main.png">
 </p>
